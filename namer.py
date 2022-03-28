@@ -70,7 +70,7 @@ for name in lines:
 		sobrenome = rm(sobrenome)
 
 		#Roberto de oliveira -> roberto.oliveira ignorar o "de"
-		if len(sobrenome) <= 3: continue
+		if sobrenome == "de" or sobrenome =="da": continue
 
 		secondName = sobrenome
 	
